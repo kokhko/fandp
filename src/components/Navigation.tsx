@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { NavTab } from '../types';
-import { Tent, Menu, X, UserPlus, Compass, BookOpen, Image, Lock } from 'lucide-react';
+import { Tent, Menu, X, UserPlus, Compass, BookOpen, Image, Lock, ClipboardList } from 'lucide-react';
 
 interface NavigationProps {
   activeTab: NavTab;
@@ -15,6 +15,7 @@ export default function Navigation({ activeTab, setActiveTab, openJoinModal }: N
     { id: 'home' as NavTab, label: '메인의 숲', icon: Compass },
     { id: 'guide' as NavTab, label: '백패킹 가이드', icon: BookOpen },
     { id: 'gallery' as NavTab, label: '추억 보관소', icon: Image },
+    { id: 'survey' as NavTab, label: '교육성과', icon: ClipboardList },
   ];
 
   return (

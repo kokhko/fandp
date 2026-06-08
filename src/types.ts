@@ -30,4 +30,4 @@ export interface GearItem {
   tip: string;
 }
 
-export type NavTab = 'home' | 'guide' | 'gallery' | 'admin';
+export type NavTab = 'home' | 'guide' | 'gallery' | 'admin' | 'survey';

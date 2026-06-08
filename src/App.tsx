@@ -14,6 +14,7 @@ import Guide from './components/Guide';
 import Gallery from './components/Gallery';
 import Carousel from './components/Carousel';
 import JoinModal from './components/JoinModal';
+import SurveyView from './components/SurveyView';
 
 // Lucide icons
 import { 
@@ -413,6 +414,12 @@ export default function App() {
             openJoinModal={() => setIsJoinModalOpen(true)}
             registrations={registrations}
           />
+        </div>
+      )}
+
+      {activeTab === 'survey' && (
+        <div className="animate-fade-in">
+          <SurveyView />
         </div>
       )}
 
