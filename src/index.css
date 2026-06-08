@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Pretendard:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-forest: #c01e2e;
+  --color-forest-dark: #121214;
+  --color-forest-light: #e53e3e;
+  --color-sand: #f4f4f5;
+  --color-sand-light: #ffffff;
+  --color-sand-dark: #27272a;
+  --color-wood: #18181b;
+  --color-wood-dark: #09090b;
+  
+  --font-sans: "Pretendard", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", "Pretendard", sans-serif;
+}

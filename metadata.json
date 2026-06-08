@@ -1,0 +1,6 @@
+{
+  "name": "F and P Folding and Packing",
+  "description": "한국수력원자력 원전건설처 임직원을 위한 백패킹 입문 및 소통 플랫폼",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
